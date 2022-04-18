@@ -215,9 +215,12 @@ a.current {
   margin-bottom: 10px;
 }
 
+.desc-item {
+  width: 270px;
+}
+
 .desc-item:not(:last-child) {
   margin-right: 30px;
-  min-width: 270px;
 }
 
 .desc-text {
