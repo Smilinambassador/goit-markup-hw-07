@@ -257,6 +257,10 @@ a.current {
 
 /* ------------------------------TEAM------------------------------ */
 
+.team {
+  background-color: var(--secondary-bg-collor);
+}
+
 .team-title {
   color: var(--seconadry-text-color);
   font-size: 36px;
