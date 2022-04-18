@@ -30,8 +30,7 @@ p {
   margin: 0%;
 }
 
-ul,
-ol {
+ul {
   margin: 0%;
   padding: 0;
 }
@@ -45,7 +44,6 @@ button {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  /* outline: 1px solid red; */
 }
 
 .section {
@@ -409,8 +407,6 @@ footer .logo {
   border-bottom: 1px solid #ececec;
   border-right: 1px solid #ececec;
   border-radius: 0px 0px 4px 4px;
-
-  text-align: center;
 }
 
 .examples-title {
@@ -418,6 +414,8 @@ footer .logo {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+
+  margin-left: 24px;
 }
 
 .examples-text {
@@ -425,4 +423,6 @@ footer .logo {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
+
+  margin-left: 24px;
 }
