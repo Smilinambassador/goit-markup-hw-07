@@ -39,10 +39,14 @@
           </ul>
         </nav>
         <div class="contacts-wrap">
-          <a href="mailto:info@devstudio.com" class="header-contacts link"
+          <a href="mailto:info@devstudio.com" class="header-contacts link">
+            <svg class="header-contacts-icon" width="16" height="12">
+              <use href="./images/icons.svg#icon-envelope-hover"></use></svg
             >info@devstudio.com</a
           >
-          <a href="tell:+380961111111" class="header-contacts link"
+          <a href="tell:+380961111111" class="header-contacts link">
+            <svg class="header-contacts-icon" width="10" height="16">
+              <use href="./images/icons.svg#icon-smartphone"></use></svg
             >+38 096 111 11 11</a
           >
         </div>
@@ -75,7 +79,8 @@
                 ><img
                   src="./images/website.jpg"
                   alt="Пример сайта Технокряк"
-                  width="370" class="examples-img"
+                  width="370"
+                  class="examples-img"
                 />
                 <div class="examples-item-desc">
                   <h2 class="examples-title">Технокряк</h2>
@@ -88,7 +93,8 @@
                 ><img
                   src="./images/orlean.jpg"
                   alt="Постер с двумя баскетболистами"
-                  width="370" class="examples-img"
+                  width="370"
+                  class="examples-img"
                 />
                 <div class="examples-item-desc">
                   <h2 class="examples-title">
@@ -103,7 +109,8 @@
                 ><img
                   src="./images/seafood.jpg"
                   alt="Логотип ресторанау"
-                  width="370" class="examples-img"
+                  width="370"
+                  class="examples-img"
                 />
                 <div class="examples-item-desc">
                   <h2 class="examples-title">
@@ -115,7 +122,12 @@
             </li>
             <li class="examples-item">
               <a href="#" class="link"
-                ><img src="./images/prime.jpg" alt="Наушники" width="370" class="examples-img" />
+                ><img
+                  src="./images/prime.jpg"
+                  alt="Наушники"
+                  width="370"
+                  class="examples-img"
+                />
                 <div class="examples-item-desc">
                   <h2 class="examples-title">
                     Проект <span lang="en">Prime</span>
@@ -126,7 +138,12 @@
             </li>
             <li class="examples-item">
               <a href="#" class="link"
-                ><img src="./images/boxes.jpg" alt="Две коробки" width="370" class="examples-img" />
+                ><img
+                  src="./images/boxes.jpg"
+                  alt="Две коробки"
+                  width="370"
+                  class="examples-img"
+                />
                 <div class="examples-item-desc">
                   <h2 class="examples-title">
                     Проект <span lang="en">Boxes</span>
@@ -140,7 +157,8 @@
                 ><img
                   src="./images/inspiration.jpg"
                   alt="Монитор с примером сайта"
-                  width="370" class="examples-img"
+                  width="370"
+                  class="examples-img"
                 />
                 <div class="examples-item-desc">
                   <h2 class="examples-title" lang="en">
@@ -155,7 +173,8 @@
                 ><img
                   src="./images/limited.jpg"
                   alt="Открытая книга"
-                  width="370" class="examples-img"
+                  width="370"
+                  class="examples-img"
                 />
                 <div class="examples-item-desc">
                   <h2 class="examples-title">
@@ -170,7 +189,8 @@
                 ><img
                   src="./images/lab.jpg"
                   alt="Бирка с логотипом"
-                  width="370" class="examples-img"
+                  width="370"
+                  class="examples-img"
                 />
                 <div class="examples-item-desc">
                   <h2 class="examples-title">
@@ -185,7 +205,8 @@
                 ><img
                   src="./images/business.jpg"
                   alt="Ноутбук с открытым сайтом"
-                  width="370" class="examples-img"
+                  width="370"
+                  class="examples-img"
                 />
                 <div class="examples-item-desc">
                   <h2 class="examples-title" lang="en">Growing Business</h2>
@@ -199,32 +220,67 @@
     </main>
     <footer class="footer">
       <div class="container">
-        <a href="" class="logo link"
-          >Web<span class="footer-logo">Studio</span></a
-        >
-        <address class="footer-address">
-          <ul class="address-list list">
-            <li class="address-item">
-              <a
-                href="https://goo.gl/maps/qzzmiK6PBYucuesr7"
-                target="_blank"
-                rel="noopener noreferre nofollow"
-                class="footer-link link"
-                >г. Киев, пр-т Леси Украинки, 26</a
-              >
+        <div class="footer-address-wrap">
+          <a href="" class="logo link"
+            >Web<span class="footer-logo">Studio</span></a
+          >
+          <address class="footer-address">
+            <ul class="address-list list">
+              <li class="address-item">
+                <a
+                  href="https://goo.gl/maps/qzzmiK6PBYucuesr7"
+                  target="_blank"
+                  rel="noopener noreferre nofollow"
+                  class="footer-link link"
+                  >г. Киев, пр-т Леси Украинки, 26</a
+                >
+              </li>
+              <li class="address-item">
+                <a href="mailto:info@example.com" class="footer-contacts link"
+                  >info@example.com</a
+                >
+              </li>
+              <li class="address-item">
+                <a href="tell:+380991111111" class="footer-contacts link"
+                  >+38 099 111 11 11</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div class="footer-join">
+          <h2 class="footer-title">присоединяйтесь</h2>
+          <ul class="footer-socials-list list">
+            <li class="footer-socials-item">
+              <a href="" class="footer-socials-link">
+                <svg class="footer-socials-icon" width="20" height="20">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
             </li>
-            <li class="address-item">
-              <a href="mailto:info@example.com" class="footer-contacts link"
-                >info@example.com</a
-              >
+            <li class="footer-socials-item">
+              <a href="" class="footer-socials-link">
+                <svg class="footer-socials-icon" width="20" height="20">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
             </li>
-            <li class="address-item">
-              <a href="tell:+380991111111" class="footer-contacts link"
-                >+38 099 111 11 11</a
-              >
+            <li class="footer-socials-item">
+              <a href="" class="footer-socials-link">
+                <svg class="footer-socials-icon" width="20" height="20">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-socials-item">
+              <a href="" class="footer-socials-link">
+                <svg class="footer-socials-icon" width="20" height="20">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
             </li>
           </ul>
-        </address>
+        </div>
       </div>
     </footer>
   </body>
