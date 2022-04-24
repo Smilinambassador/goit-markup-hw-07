@@ -229,7 +229,15 @@ a.current {
   display: flex;
 }
 
-.desc-icon-item {
+.desc-icon-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.desc-list {
+  display: flex;
+}
+
+.desc-icon-wrap {
   display: flex;
   width: 270px;
   height: 120px;
@@ -238,14 +246,6 @@ a.current {
   justify-content: center;
   align-items: center;
   margin-bottom: 30px;
-}
-
-.desc-icon-item:not(:last-child) {
-  margin-right: 30px;
-}
-
-.desc-list {
-  display: flex;
 }
 
 .desc-title {
@@ -334,6 +334,7 @@ a.current {
 
 .team-list-desc {
   padding: 30px 0;
+  background-color: #ffffff;
   border-left: 1px solid #ececec;
   border-bottom: 1px solid #ececec;
   border-right: 1px solid #ececec;
