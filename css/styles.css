@@ -631,6 +631,11 @@ footer .logo {
 }
 
 .footer-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+
   width: 200px;
   height: 50px;
   margin-left: 12px;
@@ -933,6 +938,9 @@ footer .logo {
   letter-spacing: 0.03em;
   display: flex;
   align-items: center;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  padding-left: 12px;
 }
 
 .policy-text span {
@@ -970,6 +978,11 @@ footer .logo {
 }
 
 .modal-submit {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+
   width: 200px;
   height: 50px;
   background-color: var(--accent-color);
