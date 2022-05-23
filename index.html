@@ -14,36 +14,36 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css">
     <title>WebStudio</title>
   </head>
   <body>
     <header class="header">
       <div class="container">
         <a href="" class="logo link"
-          >Web<span class="header-logo">Studio</span></a
+          >Web<span class="logo__text">Studio</span></a
         >
-        <nav class="header-nav">
-          <ul class="nav-list list">
-            <li class="nav-item">
-              <a href="./index.html" class="nav-link link current">Студия</a>
+        <nav class="navigation">
+          <ul class="navigation-list list">
+            <li class="navigation-list__item">
+              <a href="./index.html" class="navigation-list__link link current">Студия</a>
             </li>
-            <li class="nav-item">
-              <a href="./portfolio.html" class="nav-link link">Портфолио</a>
+            <li class="navigation-list__item">
+              <a href="./portfolio.html" class="navigation-list__link link">Портфолио</a>
             </li>
-            <li class="nav-item">
-              <a href="" class="nav-link link">Контакты</a>
+            <li class="navigation-list__item">
+              <a href="" class="navigation-list__link link">Контакты</a>
             </li>
           </ul>
         </nav>
         <div class="contacts-wrap">
-          <a href="mailto:info@devstudio.com" class="header-contacts link">
-            <svg class="header-contacts-icon" width="16" height="12">
+          <a href="mailto:info@devstudio.com" class="contacts link">
+            <svg class="contacts__icon" width="16" height="12">
               <use href="./images/icons.svg#icon-envelope-hover"></use></svg
             >info@devstudio.com</a
           >
-          <a href="tell:+380961111111" class="header-contacts link">
-            <svg class="header-contacts-icon" width="10" height="16">
+          <a href="tell:+380961111111" class="contacts link">
+            <svg class="contacts__icon" width="10" height="16">
               <use href="./images/icons.svg#icon-smartphone"></use></svg
             >+38 096 111 11 11</a
           >
@@ -53,10 +53,10 @@
     <main>
       <section class="hero">
         <div class="container">
-          <h1 class="hero-title">
+          <h1 class="hero__title">
             Эффективные решения <br />для вашего бизнеса
           </h1>
-          <button type="button" class="hero-btn btn" data-modal-open>
+          <button type="button" class="hero__btn" data-modal-open>
             Заказать услугу
           </button>
         </div>
@@ -65,50 +65,50 @@
         <div class="container">
           <h2 class="visually-hidden">Описание</h2>
           <ul class="desc-list list">
-            <li class="desc-item">
-              <div class="desc-icon-wrap">
-                <svg class="desc-icon" width="70" height="70">
+            <li class="desc-list__item">
+              <div class="icon-wrap">
+                <svg class="desc-list__icon" width="70" height="70">
                   <use href="./images/icons.svg#icon-antenna"></use>
                 </svg>
               </div>
-              <h3 class="desc-title">Внимание к деталям</h3>
-              <p class="desc-text">
+              <h3 class="desc-list__title">Внимание к деталям</h3>
+              <p class="desc-list__text">
                 Идейные соображения, а также начало повседневной работы по
                 формированию позиции.
               </p>
             </li>
-            <li class="desc-item">
-              <div class="desc-icon-wrap">
-                <svg class="desc-icon" width="70" height="70">
+            <li class= "desc-list__item">
+              <div class="icon-wrap">
+                <svg class="desc-list__icon" width="70" height="70">
                   <use href="./images/icons.svg#icon-clock"></use>
                 </svg>
               </div>
-              <h3 class="desc-title">Пунктуальность</h3>
-              <p class="desc-text">
+              <h3 class="desc-list__title">Пунктуальность</h3>
+              <p class="desc-list__text">
                 Задача организации, в особенности же рамки и место обучения
                 кадров влечет за собой.
               </p>
             </li>
-            <li class="desc-item">
-              <div class="desc-icon-wrap">
-                <svg class="desc-icon" width="70" height="70">
+            <li class="desc-list__item">
+              <div class="icon-wrap">
+                <svg class="desc-list__icon" width="70" height="70">
                   <use href="./images/icons.svg#icon-diagram"></use>
                 </svg>
               </div>
-              <h3 class="desc-title">Планирование</h3>
-              <p class="desc-text">
+              <h3 class="desc-list__title">Планирование</h3>
+              <p class="desc-list__text">
                 Равным образом консультация с широким активом в значительной
                 степени обуславливает.
               </p>
             </li>
-            <li class="desc-item">
-              <div class="desc-icon-wrap">
-                <svg class="desc-icon" width="70" height="70">
+            <li class="desc-list__item">
+              <div class="icon-wrap">
+                <svg class="desc-list__icon" width="70" height="70">
                   <use href="./images/icons.svg#icon-astronaut"></use>
                 </svg>
               </div>
-              <h3 class="desc-title">Современные технологии</h3>
-              <p class="desc-text">
+              <h3 class="desc-list__title">Современные технологии</h3>
+              <p class="desc-list__text">
                 Значимость этих проблем настолько очевидна, что реализация
                 плановых заданий.
               </p>
@@ -121,14 +121,21 @@
           <h2 class="features-title">Чем мы занимаемся</h2>
           <ul class="features-list list">
             <li class="features-item">
+              <div class="features-wrap">
+                <p class="features-txt">Десктопные приложения</p>
+              </div>
               <img
                 src="./images/box_1.jpg"
                 alt="написание кода"
                 width="370"
                 height="294"
               />
+              
             </li>
             <li class="features-item">
+              <div class="features-wrap">
+                <p class="features-txt">Мобильные приложения</p>
+              </div>
               <img
                 src="./images/box_2.jpg"
                 alt="планирование"
@@ -137,6 +144,9 @@
               />
             </li>
             <li class="features-item">
+              <div class="features-wrap">
+                <p class="features-txt">Дизайнерские решения</p>
+              </div>
               <img
                 src="./images/box_3.jpg"
                 alt="дизайн"
